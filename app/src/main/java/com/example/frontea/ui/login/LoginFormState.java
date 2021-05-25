@@ -1,4 +1,4 @@
-package com.example.frontcafe.ui.login;
+package com.example.frontea.ui.login;
 
 import androidx.annotation.Nullable;
 

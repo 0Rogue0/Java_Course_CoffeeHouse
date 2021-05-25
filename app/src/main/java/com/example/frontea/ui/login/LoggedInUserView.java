@@ -1,4 +1,4 @@
-package com.example.frontcafe.ui.login;
+package com.example.frontea.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

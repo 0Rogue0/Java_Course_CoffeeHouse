@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.frontcafe">
+          package="com.example.frontea">
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
@@ -13,9 +13,6 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.Frontcafe">
-        <uses-library
-                android:name="com.google.android.wearable"
-                android:required="true"/>
 
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
@@ -33,7 +30,7 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".ui.login.LoginActivity"
+                android:name="com.example.frontea.ui.login.LoginActivity"
                 android:label="@string/title_activity_login">
         </activity>
 

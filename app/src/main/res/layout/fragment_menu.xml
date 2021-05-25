@@ -16,7 +16,7 @@
             android:contentDescription="TODO"/>
 
     <ImageView
-            android:src="@drawable/ad_res"
+            android:src="@drawable/vrum"
             android:layout_width="383dp"
             android:layout_height="wrap_content"
             android:id="@+id/swth"
@@ -24,7 +24,7 @@
             android:translationX="15dp"/>
 
     <ImageView
-            android:src="@drawable/tortik"
+            android:src="@drawable/tea"
             android:layout_width="388dp"
             android:layout_height="wrap_content"
             android:id="@+id/tort_ik"

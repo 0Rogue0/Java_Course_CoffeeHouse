@@ -16,7 +16,8 @@
             android:translationY="10dp"
             android:scaleX="150"
             app:srcCompat="@drawable/line"
-            android:contentDescription="@string/lone"/>
+            android:contentDescription="@string/lone"
+            android:scaleY="2"/>
 
     <ImageView
             android:src="@drawable/line"
@@ -26,7 +27,8 @@
             android:translationY="50dp"
             android:scaleX="150"
             app:srcCompat="@drawable/line"
-            android:contentDescription="@string/line"/>
+            android:contentDescription="@string/line"
+            android:scaleY="2"/>
 
     <ImageView
             android:src="@drawable/line"
@@ -47,6 +49,28 @@
             android:scaleX="150"
             app:srcCompat="@drawable/line"
             android:contentDescription="@string/line"/>
+
+    <ImageView
+            android:src="@drawable/line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/line6"
+            android:translationY="230dp"
+            android:scaleX="150"
+            app:srcCompat="@drawable/line"
+            android:contentDescription="@string/line"
+            android:scaleY="2"/>
+
+    <ImageView
+            android:src="@drawable/line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/line7"
+            android:translationY="300dp"
+            android:scaleX="150"
+            app:srcCompat="@drawable/line"
+            android:contentDescription="@string/line"
+            android:scaleY="2"/>
 
     <ImageView
             android:src="@drawable/log"
@@ -76,10 +100,11 @@
             android:translationY="6dp"
             android:alpha="0"
             android:onClick="vhod"
-            tools:ignore="OnClick"/>
+            tools:ignore="OnClick"
+            />
 
     <ImageView
-            android:src="@drawable/get_a_discount"
+            android:src="@drawable/tag"
             android:layout_width="36dp"
             android:layout_height="wrap_content"
             android:id="@+id/imageView2"
@@ -98,7 +123,7 @@
             android:translationX="80dp"/>
 
     <ImageView
-            android:src="@drawable/kod"
+            android:src="@drawable/hent"
             android:layout_width="235dp"
             android:layout_height="24dp"
             android:id="@+id/imageView6"
@@ -106,7 +131,7 @@
             android:translationX="0dp"/>
 
     <ImageView
-            android:src="@drawable/rep"
+            android:src="@drawable/share"
             android:layout_width="236dp"
             android:layout_height="23dp"
             android:id="@+id/imageView7"
@@ -123,7 +148,7 @@
             android:alpha="0"/>
 
     <ImageView
-            android:src="@drawable/fr"
+            android:src="@drawable/ludi"
             android:layout_width="29dp"
             android:layout_height="27dp"
             android:id="@+id/imageView8"
@@ -131,7 +156,7 @@
             android:translationX="30dp"/>
 
     <TextView
-            android:text="Вы пригласили 0000 друзей"
+            android:text="Вы пригласили 0 друзей"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
@@ -140,5 +165,24 @@
             android:textSize="14sp"
             android:fontFamily="@font/roboto_medium"
             android:textColor="#9C000000"/>
+
+    <ImageView
+            android:src="@drawable/onetea"
+            android:layout_width="45dp"
+            android:layout_height="38dp"
+            android:id="@+id/imageView3"
+            android:translationX="40dp"
+            android:translationY="245dp"/>
+
+    <TextView
+            android:text="TEACLUB ИСТОРИЯ ВАШИХ ОПЕРАЦИЙ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:translationY="255dp"
+            android:translationX="90dp"/>
 
 </FrameLayout>

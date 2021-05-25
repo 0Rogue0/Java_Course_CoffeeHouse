@@ -1,6 +1,6 @@
-package com.example.frontcafe.data;
+package com.example.frontea.data;
 
-import com.example.frontcafe.data.model.LoggedInUser;
+import com.example.frontea.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

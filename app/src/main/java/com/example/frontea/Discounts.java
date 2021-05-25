@@ -1,4 +1,4 @@
-package com.example.frontcafe;
+package com.example.frontea;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;

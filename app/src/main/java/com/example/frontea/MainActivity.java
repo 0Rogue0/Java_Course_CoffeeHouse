@@ -1,4 +1,4 @@
-package com.example.frontcafe;
+package com.example.frontea;
 
 import android.content.Intent;
 import android.view.MenuItem;
@@ -12,7 +12,7 @@ import android.os.Bundle;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import com.example.frontcafe.ui.login.LoginActivity;
+import com.example.frontea.ui.login.LoginActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.text.BreakIterator;

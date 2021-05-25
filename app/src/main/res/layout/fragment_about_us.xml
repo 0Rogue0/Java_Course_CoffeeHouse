@@ -35,12 +35,12 @@
             android:translationY="550dp"/>
 
     <ImageView
-            android:src="@drawable/programmer"
+            android:src="@drawable/programer"
             android:layout_width="match_parent"
-            android:layout_height="411dp"
+            android:layout_height="368dp"
             android:id="@+id/imageView"
             android:contentDescription="@string/progr"
-            android:translationY="145dp"/>
+            android:translationY="175dp"/>
 
     <ImageButton
             android:src="@drawable/kr"

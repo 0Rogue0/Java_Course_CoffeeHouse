@@ -31,7 +31,7 @@
             android:textAllCaps="true"/>
 
     <ImageView
-            android:src="@drawable/cup_f"
+            android:src="@drawable/blen"
             android:layout_width="186dp"
             android:layout_height="154dp"
             android:id="@+id/red_cost"
@@ -39,7 +39,7 @@
             android:translationX="10dp"/>
 
     <ImageView
-            android:src="@drawable/cup_s"
+            android:src="@drawable/buter"
             android:layout_width="185dp"
             android:layout_height="153dp"
             android:id="@+id/green_cost"

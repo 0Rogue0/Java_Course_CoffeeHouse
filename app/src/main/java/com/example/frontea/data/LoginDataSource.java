@@ -1,6 +1,6 @@
-package com.example.frontcafe.data;
+package com.example.frontea.data;
 
-import com.example.frontcafe.data.model.LoggedInUser;
+import com.example.frontea.data.model.LoggedInUser;
 
 import java.io.IOException;
 
@@ -16,7 +16,7 @@ public class LoginDataSource {
             LoggedInUser fakeUser =
                     new LoggedInUser(
                             java.util.UUID.randomUUID().toString(),
-                            "Dear Client");
+                            "дорогой клиент");
             return new Result.Success<>(fakeUser);
         } catch (Exception e) {
             return new Result.Error(new IOException("Error logging in", e));

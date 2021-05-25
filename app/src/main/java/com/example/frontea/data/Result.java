@@ -1,4 +1,4 @@
-package com.example.frontcafe.data;
+package com.example.frontea.data;
 
 /**
  * A generic class that holds a result success w/ data or an error exception.

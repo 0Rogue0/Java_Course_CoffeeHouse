@@ -1,11 +1,11 @@
-package com.example.frontcafe.ui.login;
+package com.example.frontea.ui.login;
 
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.annotation.NonNull;
 
-import com.example.frontcafe.data.LoginDataSource;
-import com.example.frontcafe.data.LoginRepository;
+import com.example.frontea.data.LoginDataSource;
+import com.example.frontea.data.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

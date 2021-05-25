@@ -1,4 +1,4 @@
-package com.example.frontcafe;
+package com.example.frontea;
 
 import org.junit.Test;
 

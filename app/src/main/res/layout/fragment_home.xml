@@ -20,7 +20,7 @@
             android:id="@+id/pop_t"/>
 
     <ImageView
-            android:src="@drawable/tabl_dis"
+            android:src="@drawable/pay_and_buy"
             android:layout_width="390dp"
             android:layout_height="271dp"
             android:id="@+id/tab_dis"
@@ -35,7 +35,7 @@
             android:translationY="40dp"/>
 
     <ImageView
-            android:src="@drawable/w_dis"
+            android:src="@drawable/discotic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/week_dis"

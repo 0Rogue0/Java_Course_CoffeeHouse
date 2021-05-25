@@ -1,14 +1,14 @@
-package com.example.frontcafe.ui.login;
+package com.example.frontea.ui.login;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import android.util.Patterns;
 
-import com.example.frontcafe.data.LoginRepository;
-import com.example.frontcafe.data.Result;
-import com.example.frontcafe.data.model.LoggedInUser;
-import com.example.frontcafe.R;
+import com.example.frontea.data.LoginRepository;
+import com.example.frontea.data.Result;
+import com.example.frontea.data.model.LoggedInUser;
+import com.example.frontea.R;
 
 public class LoginViewModel extends ViewModel {
 
